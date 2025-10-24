@@ -1,0 +1,59 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+
+# Visual Studio / Rider
+.vs/
+.vscode/
+.idea/
+*.DotSettings.user
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Test results
+TestResults/
+*.trx
+
+# Output reports and screenshots
+Data/Reports/*.csv
+Data/Reports/*.png
+Data/Reports/*.jpg
+
+# Keep the Reports folder structure
+!Data/Reports/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+
+# ChromeDriver
+chromedriver
+chromedriver.exe
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
